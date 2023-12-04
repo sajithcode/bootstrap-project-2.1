@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Smooch&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------------------
+    navbar section style------*/
+
+.navbar-section{
+    margin-bottom: -55px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.bg-nav{
+    background-color: #D4E8F3;
+
+}
+
+.navbar-nav a{
+    margin-right: 45px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+/*----------------------------
+    hero section style------*/
+
+.hero{
+    width: 100%;
+    height: 70vh;
+    background-color: #D6EAF5;
+}
+
+.hero-text-1{
+    font-family: 'Smooch', cursive;
+    font-size: 150px;
+}
+
+.hero-text-2{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* .hero-text  p{
+    width: 550px;
+    text-align: justify;
+    text-justify: inter-word;
+} */
+
+
+/*----------------------------
+    About section style------*/
+
+.about-text {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.about-text h3{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+.about-text h1{
+    font-family: 'Smooch', cursive;
+    font-size: 100px;
+}
+
+.fade-in-image { animation: fadeIn 5s; }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+/*----------------------------
+    Menu section style------*/
+
+.menu{
+    
+    background-color: #8080c5;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+.menu-items{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.menu-sub-text{
+    padding-left: 200px;
+    padding-right: 200px;
+    /* margin-left: 200px;*/
+} 
+
+
+.menu-second{
+    margin-top: -60px;
+}
+
+/* .carousel-item >img{
+    width: 250px;
+    height: 750px;
+} */
+
+/*----------------------------
+    scroll to top button style------*/
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
